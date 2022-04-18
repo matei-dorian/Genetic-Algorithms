@@ -309,5 +309,9 @@ f.write(str(Population.calculate_f(population.subjects[len(population.subjects) 
 f.close()
 
 plt.plot(population.max_value)
+plt.xlabel("generation")
+plt.ylabel("maximum value")
+plt.title("Genetic algorithm")
 plt.draw()
 plt.show()
+
